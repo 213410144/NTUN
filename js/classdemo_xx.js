@@ -21,6 +21,18 @@ function showClassDemo(item) {
     case 'w04_p2_44':
       p.innerHTML = `<iframe src='./demo/w04_basic_44/P2_44/p2_44.html' width="100%" height="100%" />`;
       break;
+          case '第一題':
+      p.innerHTML = `<iframe src='./01.html' width="100%" height="100%" />`;
+      break;
+          case '第二題':
+      p.innerHTML = `<iframe src='./02.html' width="100%" height="100%" />`;
+      break;
+          case '第三題':
+      p.innerHTML = `<iframe src='./03.html' width="100%" height="100%" />`;
+      break;
+          case '第四題':
+      p.innerHTML = `<iframe src='./04.html' width="100%" height="100%" />`;
+      break;
   }
 }
 function showMid1(item) {
