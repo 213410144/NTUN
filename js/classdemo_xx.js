@@ -1,6 +1,8 @@
 const p = document.querySelector('.show-classdemo');
 console.log('p', p);
 
+
+
 function showClassDemo(item) {
   switch (item) {
     case 'w01_dom_xx':
@@ -30,9 +32,6 @@ function showMid1(item) {
       break;
     case 'm3_44':
       p.innerHTML = `<iframe src='./mid1_44/m3_44/p3_44.html' width='100%' height='100%' />`;
-      break;
-    case 'm4_44':
-      p.innerHTML = `<iframe src='./exams/quiz1_xx/p4_xx/p4_xx.html' width="100%" height="100%" />`;
       break;
   }
 }
