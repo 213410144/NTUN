@@ -26,18 +26,25 @@
         </div>
         <div class="header-right">
           <ul class="main-menu">
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="./index.htmnl" class="active">Home</a>
-            </li>
+            </li> -->
+
+
+<li class="menu-item">
+  <a href="#" class="active" onclick="goHome()">Home</a>
+</li>
+
+
 
             <li class="menu-item mega-menu">
-              <a href="#">Class Demo +</a>
+              <a href="#">目綠</a>
               <div class="mega-menu-wrapper slideInUp">
                 <div class="mega-menu-col">
-                  <h5>W1~W4</h5>
+                  <h5>實作練習</h5>
                   <ul class="mega-sub-menu">
-                    <li onclick="showClassDemo('w01_dom_xx')">
-                      <a href="#">w01_dom_xx</a>
+                    <li onclick="showClassDemo('w01_dom_44')">
+                      <a href="#">w01_dom_44</a>
                     </li>
                     <li onclick="showClassDemo('w02_demo_44')">
                       <a href="#">w02_d_demo_44</a>
@@ -54,7 +61,7 @@
                   </ul>
                 </div>
                 <div class="mega-menu-col">
-                  <h5>W5-W8</h5>
+                  <h5>電腦製圖</h5>
                   <ul class="mega-sub-menu">
                     <li onclick="showClassDemo('w05_p3_xx')">
                       <a href="#">w05_p3_xx</a>
@@ -74,7 +81,7 @@
             </li>
 
             <li class="menu-item dropdown">
-              <a href="#">Mid +</a>
+              <a href="#">課堂實作</a>
               <div class="sub-menu-wrapper slideInUp">
                 <ul class="sub-menu">
                   <li class="menu-item" onclick="showMid1('m1_44')">
@@ -175,13 +182,11 @@
       </div>
     </header>
 
-    <section class="show-classdemo"></section>
-    
-        <section class="hero"></section>
+    <section class="show-classdemo">      
       <div class="container">
         <h1>Awesome Mega Menu</h1>
-      </div>
-    </section>
+      </div></section>
+
 
     <script src="./js/megaMenu_xx.js"></script>
     <script src="./js/classdemo_xx.js"></script>

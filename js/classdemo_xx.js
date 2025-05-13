@@ -3,10 +3,11 @@ console.log('p', p);
 
 
 
+
 function showClassDemo(item) {
   switch (item) {
-    case 'w01_dom_xx':
-      p.innerHTML = `<iframe src='./demo/w01_dom_xx/index.html' width='100%' height='100%' />`;
+    case 'w01_dom_44':
+      p.innerHTML = `<iframe src='./demo/w01_dom_44/index.html' width='100%' height='100%' />`;
       break;
     case 'w02_demo_44':
       p.innerHTML = `<iframe src='./demo/w02_demo_44/index.html' width='100%' height='100%' />`;
@@ -34,4 +35,14 @@ function showMid1(item) {
       p.innerHTML = `<iframe src='./mid1_44/m3_44/p3_44.html' width='100%' height='100%' />`;
       break;
   }
+}
+
+
+function goHome() {
+  p.innerHTML = `
+    <div class="container">
+      <h1>Awesome Mega Menu</h1>
+      <p>歡迎回到首頁，請從上方選單選擇功能。</p>
+    </div>
+  `;
 }
