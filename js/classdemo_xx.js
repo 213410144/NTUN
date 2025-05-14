@@ -21,16 +21,16 @@ function showClassDemo(item) {
     case 'w04_p2_44':
       p.innerHTML = `<iframe src='./demo/w04_basic_44/P2_44/p2_44.html' width="100%" height="100%" />`;
       break;
-          case '第一題':
+          case '馬達外殼支撐零件建模':
       p.innerHTML = `<iframe src='./01.html' width="100%" height="100%" />`;
       break;
-          case '第二題':
+          case '茶壺':
       p.innerHTML = `<iframe src='./02.html' width="100%" height="100%" />`;
       break;
-          case '第三題':
+          case '三葉螺旋槳':
       p.innerHTML = `<iframe src='./03.html' width="100%" height="100%" />`;
       break;
-          case '第四題':
+          case '法蘭基座':
       p.innerHTML = `<iframe src='./04.html' width="100%" height="100%" />`;
       break;
   }
