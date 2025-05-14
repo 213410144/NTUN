@@ -37,9 +37,9 @@ function showClassDemo(item) {
 }
 function showMid1(item) {
   switch (item) {
-    // case 'm1_44':
-    //   p.innerHTML = `<iframe src='./mid1_44/m1_44/src/p1_44.html' width='100%' height='100%' />`;
-      break;
+    // // case 'm1_44':
+    // //   p.innerHTML = `<iframe src='./mid1_44/m1_44/src/p1_44.html' width='100%' height='100%' />`;
+    //   break;
     case 'm2_44':
       p.innerHTML = `<iframe src='./mid1_44/m2_44/p2_44.html' width='100%' height='100%' />' />`;
       break;
